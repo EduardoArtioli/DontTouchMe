@@ -25,10 +25,7 @@ Code is not ready and barely tested.
 
 More changes and optimization to come.
 
-
-```mermaid
-graph LR
-A[Block inputs]--> B((GUI animation))
-B -- USB CONNECTED --> D{Exits code}
-```
 # Demo
+
+![zxSLwLJ0eI](https://user-images.githubusercontent.com/14796036/133133233-f108ea18-1bb6-46fb-899f-4179203bd4bc.gif)
+
