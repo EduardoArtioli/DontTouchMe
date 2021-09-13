@@ -4,14 +4,6 @@
 
 HotKeySet("{F9}", "_Terminate")
 
-;~ #include <Misc.au3>
-;~ #include <MsgBoxConstants.au3>
-;~ #include <WindowsConstants.au3>
-
-
-
-
-
 Global $Notepad_Open = "0"
 Global $hNotepad_Wnd
 Local $Counter
@@ -19,7 +11,7 @@ Local $Counter
 $strComputer = "."
 $objWMIService = ObjGet("winmgmts:\\" & $strComputer & "\root\CIMV2")
 
-;_BlockInputEx(1, "", "")
+_BlockInputEx(1, "", "")
 
 Func _Terminate()
 	Exit
@@ -101,7 +93,7 @@ Func _CreateGUI()
     GUIDelete($hGUI)
 EndFunc
 
-_CreateGUI()
+;_CreateGUI()
 _main()
 Func _main()
 
